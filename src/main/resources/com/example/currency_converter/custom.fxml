@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="enter_amount" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="523.0" prefWidth="623.0" stylesheets="@custom.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.currency_converter.Custom">
+    <children>
+        <AnchorPane id="top_pane" layoutX="223.0" layoutY="108.0" prefHeight="328.0" prefWidth="289.0" stylesheets="@custom.css">
+            <children>
+                <Label id="enter_amount" fx:id="title_cu" alignment="CENTER" layoutX="1.0" layoutY="44.0" prefHeight="26.0" prefWidth="289.0" stylesheets="@cal.css" text="Enter The Amount">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                    <textFill>
+                        <LinearGradient endX="0.04761904761904767" endY="1.0">
+                            <stops>
+                                <Stop color="BLACK" />
+                                <Stop color="WHITE" offset="1.0" />
+                            </stops>
+                        </LinearGradient>
+                    </textFill>
+                </Label>
+                <ChoiceBox id="choice" fx:id="choice_in_cu" layoutX="24.0" layoutY="97.0" prefHeight="25.0" prefWidth="82.0" stylesheets="@cal.css" />
+                <TextField fx:id="field_in_cu" layoutX="126.0" layoutY="97.0" />
+                <Button id="cal_btn" fx:id="cal_in_cu" layoutX="85.0" layoutY="164.0" mnemonicParsing="false" onAction="#calculate_custom" prefHeight="25.0" prefWidth="116.0" stylesheets="@custom.css" text="CALCULATE">
+                    <textFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                            <stops>
+                                <Stop color="BLACK" />
+                                <Stop color="WHITE" offset="1.0" />
+                            </stops>
+                        </LinearGradient>
+                    </textFill>
+                </Button>
+                <Label id="enter_amount" fx:id="result_in_cu" alignment="CENTER" layoutX="132.0" layoutY="244.0" prefHeight="19.0" prefWidth="143.0" stylesheets="@cal.css" text="000.00">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                    <textFill>
+                        <LinearGradient endX="0.2666666666666667" endY="1.0">
+                            <stops>
+                                <Stop color="BLACK" />
+                                <Stop color="WHITE" offset="1.0" />
+                            </stops>
+                        </LinearGradient>
+                    </textFill>
+                </Label>
+            <ChoiceBox fx:id="result_curr" layoutX="26.0" layoutY="241.0" prefHeight="25.0" prefWidth="82.0" />
+            </children>
+        </AnchorPane>
+        <AnchorPane id="ap_behind" layoutX="172.0" layoutY="74.0" prefHeight="318.0" prefWidth="51.0" stylesheets="@custom.css" />
+        <AnchorPane id="ap_behind" layoutX="217.0" layoutY="74.0" prefHeight="34.0" prefWidth="229.0" stylesheets="@custom.css" />
+        <Button id="cal_btn" fx:id="back_in_cu" layoutX="504.0" layoutY="462.0" mnemonicParsing="false" onAction="#previous_screen" prefHeight="31.0" prefWidth="105.0" stylesheets="@custom.css" text="BACK">
+            <textFill>
+                <LinearGradient endX="1.0" endY="1.0">
+                    <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="WHITE" offset="1.0" />
+                    </stops>
+                </LinearGradient>
+            </textFill>
+        </Button>
+    </children>
+</AnchorPane>

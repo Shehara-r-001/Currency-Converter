@@ -1,0 +1,19 @@
+.root{
+    -fx-background-color: #2f333f;
+}
+
+#ap_behind{
+    -fx-background-color: #004d1a;
+}
+
+#calculater{
+    -fx-background-color: #4d004d;
+}
+
+#ap_behind{
+    -fx-background-color: #0a290a;
+}
+
+#top_pane{
+    -fx-background-color: #39004d;
+}

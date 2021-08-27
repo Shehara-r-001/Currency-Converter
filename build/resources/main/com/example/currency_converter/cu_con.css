@@ -1,0 +1,25 @@
+.root{
+    -fx-background-color: #2f333f;
+}
+
+#side_pane{
+    -fx-background-color: #003d4d;
+
+}
+
+#start_button{
+    -fx-font-family: "Lucida console";
+    -fx-background-color: #800040;
+    -fx-font-size: 25;
+    -fx-border-radius: 10 0 10 0;
+    -fx-background-radius: 10 0 10 0;
+    -fx-font-weight: bold;
+}
+
+#app_name{
+    -fx-background-color: #800040;
+    -fx-font-family: "Lucida console";
+    -fx-border-radius: 10 0 10 0;
+    -fx-background-radius: 10 0 10 0;
+    -fx-font-weight: bold;
+}

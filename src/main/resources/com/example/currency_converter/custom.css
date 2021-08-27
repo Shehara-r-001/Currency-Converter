@@ -1,0 +1,17 @@
+.root{
+    -fx-background-color: #2f333f;
+}
+
+#cal_btn{
+    -fx-background-color: #003d4d;
+    -fx-font-family: "Lucida console";
+    -fx-font-size: 15;
+}
+
+#top_pane{
+    -fx-background-color: #00134d;
+}
+
+#ap_behind{
+    -fx-background-color: #1a000a;
+}

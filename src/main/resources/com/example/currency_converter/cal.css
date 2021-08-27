@@ -1,0 +1,48 @@
+.root{
+    -fx-background-color: #2f333f;
+}
+
+#left_btn{
+    -fx-background-color: #800040;
+    -fx-font-size: 20;
+    -fx-font-family: "Lucida console";
+}
+
+#right_btn{
+    -fx-background-color: #800040;
+
+    -fx-font-size: 20;
+    -fx-font-family: "Lucida console";
+}
+
+#calculater{
+    -fx-background-color: #800040;
+}
+
+#enter_amount{
+    -fx-font-family: "Lucida console";
+    -fx-font-size: 17;
+}
+
+#currency_type{
+    -fx-font-family: "Lucida console";
+    -fx-font-size: 15;
+}
+
+#backed{
+    -fx-background-color: #003d4d;
+}
+
+#cal_btn{
+    -fx-background-color: #003d4d;
+    -fx-font-family: "Lucida console";
+    -fx-font-size: 15;
+}
+
+#ap_behind{
+    -fx-background-color: #003d4d;
+}
+
+#choice{
+    -fx-font-family: "Lucida console";
+}

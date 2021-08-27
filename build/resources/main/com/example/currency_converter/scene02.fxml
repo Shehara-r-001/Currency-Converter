@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="523.0" prefWidth="623.0" stylesheets="@scene02.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.currency_converter.Scene02">
+   <children>
+      <AnchorPane id="side_s02" layoutX="183.0" layoutY="121.0" prefHeight="405.0" prefWidth="223.0">
+         <children>
+            <Button id="btn01" fx:id="u_to_g" alignment="CENTER" layoutX="27.0" layoutY="173.0" mnemonicParsing="false" onAction="#to_scene_UtoG" prefHeight="46.0" prefWidth="170.0" stylesheets="@scene02.css" text="USD/GBP" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button id="btn02" fx:id="u_to_r" layoutX="27.0" layoutY="230.0" mnemonicParsing="false" onAction="#to_scene_UtoR" prefHeight="46.0" prefWidth="170.0" stylesheets="@scene02.css" text="USD/LKR" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button id="btn03" fx:id="r_to_g" layoutX="27.0" layoutY="287.0" mnemonicParsing="false" onAction="#to_scene_RtoG" prefHeight="46.0" prefWidth="170.0" stylesheets="@scene02.css" text="LKR/GBP" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button id="btn04" fx:id="custom_btn" layoutX="27.0" layoutY="345.0" mnemonicParsing="false" onAction="#to_custom" prefHeight="46.0" prefWidth="170.0" stylesheets="@scene02.css" text="CUSTOM" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
